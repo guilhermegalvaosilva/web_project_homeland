@@ -18,6 +18,14 @@ flex-direction: column;
 .header__image{
   background: linear-gradient(0deg, #000000, #000000);
   box-shadow: 10px 10px 25px 0px #00000080;
+   background: linear-gradient(0deg, #000000, #000000);
+  box-shadow: 10px 10px 25px 0px #00000080;
+  width: 984px;
+  height: 615px;
+  top: 562px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .header__title{
