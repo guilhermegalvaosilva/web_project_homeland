@@ -1,4 +1,4 @@
-.photo-grid{
+.photo-grid {
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -9,9 +9,8 @@
   padding-top: 118px;
 }
 
-
-@media screen and (max-width: 1024px){
-  .photo-grid{
+@media screen and (max-width: 1024px) {
+  .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     padding-left: 24px;
     padding-right: 24px;
@@ -19,12 +18,11 @@
   }
 }
 
-@media screen and (max-width: 544px){
-  .photo-grid{
+@media screen and (max-width: 544px) {
+  .photo-grid {
     grid-template-columns: auto;
     padding-left: 16px;
     padding-top: 36px;
     padding-bottom: 62px;
-
   }
 }
